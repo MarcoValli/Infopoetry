@@ -1,0 +1,18 @@
+
+
+
+@font-face {
+  font-family: "sharp_reg";
+  src: url("ApfelGrotezk-Regular.woff2") format("woff2"),
+       url("ApfelGrotezk-RegularE.woff") format("woff");
+}
+
+
+@font-face {
+    font-family: 'sharp_bold';
+   src: url("ApfelGrotezk-Brukt.woff2") format("woff2"),
+       url("ApfelGrotezk-Brukt.woff") format("woff");
+
+}
+
+

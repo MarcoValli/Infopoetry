@@ -1,0 +1,180 @@
+html {
+  background-color: E3D3BA;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+
+
+body {
+  margin: 0;
+    padding: 10em;
+  /* cursor: url('cursor.png') 50 50, auto; */
+}
+
+
+
+p {
+  font-family: "sharp_reg";
+
+}
+
+a {
+  font-family: "sharp_bold";
+  text-decoration: none;
+    font-size: 10em:
+
+}
+
+ul {
+  padding-top: 3vw;
+  width: 15vw;
+}
+
+li {
+  font-size: 0.8em;
+  font-weight: 100;
+  font-family: 'sharp_reg';
+  line-height: 1.5em;
+
+  list-style-type: none;
+}
+
+h1 {
+  font-weight: 100;
+  font-family: 'sharp_reg';
+
+  font-size: 6em;
+  line-height: 1em;
+
+}
+
+h2 {
+    margin-top:2em;
+  font-weight: 50;
+  font-family: 'sharp_reg';
+ 
+  font-size: 2em;
+
+}
+.button{
+ padding: 0.5em;
+  margin-left: 0.5em;
+  text-align: center;
+}
+
+.button a {
+        font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+
+}
+h2{
+    font-size: 10em;
+    margin:0;
+    margin-top: .5em;
+    line-height: .9em;
+}
+h1,h2,h3,h4{
+     font-family: 'sharp_bold';
+}
+h4{
+    font-size: 3em;
+}
+
+#description{
+    padding-right: 1em;
+    padding-left: 5em;
+}
+#home_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+    margin-top:-2em;
+
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1em 2em 1em 2em;
+}
+
+#adam{
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
+h3 {
+  font-family: 'sharp_reg';
+  font-size: 1.5em;
+
+}
+
+
+
+#home_logo img {
+  max-width: 23.5em;
+    position: absolute;
+    top: 5%;
+}
+
+#home_logo p {
+  color: black;
+  margin-left: 0.5em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+
+.footer {
+  background-color: #E3D3BA;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  border-top: 1px solid ;
+}
+
+.footer img {
+  max-width: 8em;
+  max-height: 5em;
+  padding-bottom: 2em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1em 2em 1em 2em;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #E3D3BA;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color:#D3C3BA ;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color:#E3D3BA;
+  display: none;
+    
+  overflow: hidden;
+}
